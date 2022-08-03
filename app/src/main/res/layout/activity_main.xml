@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background= "@color/gray"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/topBar"
+        android:background="@color/red"
+        >
+        <include layout="@layout/custom_top_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_corner_bottom"
+        android:orientation="horizontal"
+        android:backgroundTint="@color/white"
+        >
+
+        <TextView
+            android:id="@+id/tvLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:textSize="24sp"
+            android:fontFamily="@font/roboto"
+            android:background="@drawable/rounded_corner_bottom"
+            android:textColor="@color/black"
+            android:padding="12dp"
+            />
+
+        <TextView
+            android:id="@+id/tvRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/roboto"
+            android:background="@color/white"
+            android:text="Sign Up"
+            android:textSize="24sp"
+            android:textColor="@color/black"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:background="@color/gray"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/flSignUp"
+        />
+</LinearLayout>

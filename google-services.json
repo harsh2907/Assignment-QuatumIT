@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "1099456425170",
+    "project_id": "spotify-clone-3f083",
+    "storage_bucket": "spotify-clone-3f083.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1099456425170:android:f01521ccd44a96ef81910b",
+        "android_client_info": {
+          "package_name": "com.example.assignment_quantamit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1099456425170-a5vgfb2uueousecca8b14msm7ia8vaiv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.assignment_quantamit",
+            "certificate_hash": "9f0f63e9fb85ee612868e28f335f433c900461a1"
+          }
+        },
+        {
+          "client_id": "1099456425170-3u5qvg4umtgmppdgm8d2k3l67a8nnv47.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLlIAxNjOymCZHejuMC9IeuLUAAx3tw3k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1099456425170-3u5qvg4umtgmppdgm8d2k3l67a8nnv47.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1099456425170:android:25a7e64bdde6dbe081910b",
+        "android_client_info": {
+          "package_name": "com.example.spotifyclone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1099456425170-3u5qvg4umtgmppdgm8d2k3l67a8nnv47.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLlIAxNjOymCZHejuMC9IeuLUAAx3tw3k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1099456425170-3u5qvg4umtgmppdgm8d2k3l67a8nnv47.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
